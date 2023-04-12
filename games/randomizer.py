@@ -2,7 +2,6 @@ import random
 
 
 def get_borders() -> tuple[str, str]:
-
     print('Input left border')
     left = input()
 
@@ -13,7 +12,6 @@ def get_borders() -> tuple[str, str]:
 
 
 def validate_borders(borders: tuple[str, str]) -> bool:
-
     if not borders[0].isdigit() or not borders[1].isdigit():
         return False
 
@@ -27,12 +25,10 @@ def validate_borders(borders: tuple[str, str]) -> bool:
 
 
 def get_random_number(borders: tuple[int, int]) -> int:
-
     return random.randint(borders[0], borders[1])
 
 
 def restart_game() -> bool:
-
     print('Wanna play again?')
     answer = input()
 

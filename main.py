@@ -1,7 +1,6 @@
 from games import magicball
 from games import randomizer
 
-
 print('Hello! Choose the game! I have randomizer or magicball')
 
 while True:

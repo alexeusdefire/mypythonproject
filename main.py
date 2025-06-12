@@ -37,4 +37,4 @@ while True:
         break
 
     else:
-        print("Oops... I didn't have this game... Choose randomizer or magicball")
+        print("Oops... I didn't have this game... Choose randomizer or magicball!")
